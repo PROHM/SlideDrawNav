@@ -11,6 +11,8 @@ public interface SlideDrawNav {
 
     boolean isMenuOpened();
 
+    SlideNavLayout getLayout();
+
     boolean isMenuLocked();
 
     void closeMenu();
@@ -22,6 +24,4 @@ public interface SlideDrawNav {
     void openMenu(boolean animated);
 
     void setMenuLocked(boolean locked);
-
-    /* SlidingRootNavLayout getLayout(); */
 }

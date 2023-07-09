@@ -1,6 +1,5 @@
 package com.prohm.library.transform;
 
-import android.os.Build;
 import android.view.View;
 
 import com.prohm.library.utils.SideNavUtils;
