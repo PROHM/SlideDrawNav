@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="srn_drawer_open">Abierto</string>
+    <string name="srn_drawer_close">Cerrado</string>
+
+    <string name="srn_ex_no_menu_view">No se proporciona vista para el menú. Debe llamar a .withMenuView(View) o pasar una identificación de recurso válido a .withMenuLayout(int)</string>
+    <string name="srn_ex_bad_content_view">Su vista de contenido debe contener exactamente un Child(). Asegúrese de llamar a inject() después de setContentView().</string>
+</resources>

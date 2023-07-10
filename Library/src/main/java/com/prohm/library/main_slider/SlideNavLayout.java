@@ -184,9 +184,19 @@ public class SlideNavLayout extends FrameLayout implements SlideDrawNav {
         dragListeners.add(listener);
     }
 
+    public void addDragStateListener(DragStateListener listener)
+    {
+        dragStateListeners.add(listener);
+    }
+
     public void removeDragListener(DragListener listener)
     {
         dragListeners.remove(listener);
+    }
+
+    public void removeDragStateListener(DragStateListener listener)
+    {
+        dragStateListeners.remove(listener);
     }
 
     public float getDragProgress() {
