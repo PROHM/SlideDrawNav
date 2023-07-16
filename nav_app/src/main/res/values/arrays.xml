@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="ld_activityScreenTitles">
+        <item>Dashboard</item>
+        <item>Sells</item>
+        <item>Reports</item>
+        <item>User Prefs.</item>
+        <item>Settings</item>
+        <item>Help</item>
+        <item />
+        <item>LogOut</item>
+    </string-array>
+
+    <array name="ld_activityScreenIcons">
+        <item>@drawable/nav_root_home_icon</item>
+        <item>@drawable/nav_root_sell_icon</item>
+        <item>@drawable/nav_root_rpt_icon</item>
+        <item>@drawable/nav_root_user_prefs_icon</item>
+        <item>@drawable/nav_root_settings_icon</item>
+        <item>@drawable/nav_root_help_icon</item>
+        <item>0</item>
+        <item>@drawable/nav_root_log_out_icon</item>
+    </array>
+</resources>

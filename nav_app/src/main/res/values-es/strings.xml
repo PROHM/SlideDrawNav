@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">SlideDrawNav</string>
+
+    <!-- String Used for Main Menu (Sidebar) -->
+    <string name="nav_home">Panel</string>
+    <string name="nav_sells">Ventas</string>
+    <string name="nav_reports">Reportes</string>
+    <string name="nav_profile">Profile</string>
+    <string name="nav_app">App</string>
+    <string name="nav_user_prefs">Prefs. Usuario</string>
+    <string name="nav_logout">Desconectarse</string>
+    <string name="nav_prefs">Ajustes</string>
+    <string name="nav_help">Ayuda</string>
+</resources>

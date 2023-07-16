@@ -253,7 +253,11 @@ public class SlideNavLayout extends FrameLayout implements SlideDrawNav {
     @Override
     protected void onRestoreInstanceState(Parcelable state) {
         Bundle savedState = (Bundle) state;
+
+        //<T>getParcelable(String) in Bundle has been deprecated
         super.onRestoreInstanceState(savedState.getParcelable(EXTRA_SUPER));
+        //end-Report Deprecated
+
         changeMenuVisibility(false, savedState.getInt(EXTRA_IS_OPENED, 0));
         isMenuHidden = calcIsMenuHidden();
         isContentClickableWhenMenuOpened = savedState.getBoolean(EXTRA_SHOULD_BLOCK_CLICK);

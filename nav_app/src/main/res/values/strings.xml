@@ -1,3 +1,14 @@
 <resources>
     <string name="app_name">SlideDrawNav</string>
+
+    <!-- String Used for Main Menu (Sidebar) -->
+    <string name="nav_home">Dashboard</string>
+    <string name="nav_sells">Sells</string>
+    <string name="nav_reports">Reports</string>
+    <string name="nav_profile">Profile</string>
+    <string name="nav_app">App</string>
+    <string name="nav_user_prefs">User Prefs.</string>
+    <string name="nav_logout">Logout</string>
+    <string name="nav_prefs">Settings</string>
+    <string name="nav_help">Help</string>
 </resources>
